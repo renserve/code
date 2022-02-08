@@ -2,6 +2,18 @@
 module.exports = [
     {text: '首页', link: '/'},
     {
+        text: '指南',
+        link: '/guide/',
+        items:[
+            {
+                text: '学习总结',
+                items: [
+                    {text: '对于学习的看法', link: '/pages/fcf562/'},
+                ]
+            }
+        ]
+    },
+    {
         text: '前端',
         link: '/front/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         /*items: [
