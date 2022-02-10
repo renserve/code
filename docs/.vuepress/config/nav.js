@@ -10,6 +10,7 @@ module.exports = [
                 items: [
                     {text: '对于学习的看法', link: '/pages/fcf562/'},
                     {text: '学习方法', link: '/pages/079754/'},
+                    {text: '学习资源', link: '/pages/83bfb8/'},
                 ]
             }
         ]
