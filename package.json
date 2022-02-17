@@ -10,6 +10,11 @@
     "publish": "cd ./theme-vdoing && npm publish && cd ../ && npm run updateTheme",
     "updateTheme": "npm uninstall vuepress-theme-vdoing && rm -rf node_modules && npm i && npm i vuepress-theme-vdoing -D"
   },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $GIT_PARAMS"
+    }
+  },
   "license": "MIT",
   "devDependencies": {
     "dayjs": "^1.9.7",
